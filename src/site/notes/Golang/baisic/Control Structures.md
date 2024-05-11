@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Golang/baisic/Control Structures/","created":"2024-01-26T00:25:35.000+09:00","updated":"2024-05-11T11:34:59.551+09:00"}
+{"dg-publish":true,"permalink":"/golang/baisic/control-structures/","dgPassFrontmatter":true,"created":"2024-01-26T00:25:35.000+09:00","updated":"2024-05-11T11:34:59.551+09:00"}
 ---
 
 ```golang
