@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Home/","tags":["gardenEntry"],"created":"2024-05-11T11:36:51.369+09:00","updated":"2024-05-11T11:37:50.806+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2024-05-11T11:36:51.369+09:00","updated":"2024-05-11T11:37:50.806+09:00"}
 ---
 
 ### Note
