@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kubernetes/선언형 API/","created":"2024-04-05T14:07:23.000+09:00","updated":"2024-05-11T11:38:28.144+09:00"}
+{"dg-publish":true,"permalink":"/kubernetes/api/","dgPassFrontmatter":true,"created":"2024-04-05T14:07:23.000+09:00","updated":"2024-05-11T11:38:28.144+09:00"}
 ---
 
 쿠버네티스에서 선언형 API 는 사용자가 애플리케이션의 원하는 상태를 선언하고, 쿠버네티스 시스템이 그 상태를 달성하기 위해 작업을 자동으로 조정하는 방식을 뜻한다.
