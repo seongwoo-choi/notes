@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kubernetes/Operator 패턴/","created":"2024-04-16T09:29:56.507+09:00","updated":"2024-05-11T11:39:03.901+09:00"}
+{"dg-publish":true,"permalink":"/kubernetes/operator/","dgPassFrontmatter":true,"created":"2024-04-16T09:29:56.507+09:00","updated":"2024-05-11T11:39:03.901+09:00"}
 ---
 
 https://dev.gmarket.com/65
