@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kubernetes/CR 과 CRD/","created":"2024-04-09T10:58:39.000+09:00","updated":"2024-05-11T11:38:53.093+09:00"}
+{"dg-publish":true,"permalink":"/kubernetes/cr-crd/","dgPassFrontmatter":true,"created":"2024-04-09T10:58:39.000+09:00","updated":"2024-05-11T11:38:53.093+09:00"}
 ---
 
 
