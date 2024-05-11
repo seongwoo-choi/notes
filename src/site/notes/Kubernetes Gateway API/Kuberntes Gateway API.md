@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kubernetes Gateway API/Kuberntes Gateway API/","created":"2024-03-12T16:24:31.000+09:00","updated":"2024-05-11T11:40:56.312+09:00"}
+{"dg-publish":true,"permalink":"/Kubernetes Gateway API/Kuberntes Gateway API/","created":"2024-03-12T16:24:31.000+09:00","updated":"2024-05-11T11:42:56.948+09:00"}
 ---
 
 ## Gateway
@@ -22,27 +22,26 @@ Gateway 리스너는 아래처럼 HTTPRoute 를 제한할 수 있다.
 apiVersion: gateway.networking.k8s.io/v1beta1  
 kind: Gateway  
 metadata:  
-	name: numbering-front-gateway  
-	# gateway deployment 가 생성되는 namespace 와 동일해야 된다.  
-	namespace: istio-system  
-	labels:  
-		app: numbering-front-ingressgateway  
-		istio: ingressgateway  
-		environment: dev  
+  name: numbering-front-gateway  
+  # gateway deployment 가 생성되는 namespace 와 동일해야 된다.  
+  namespace: istio-system  
+  labels:  
+     app: numbering-front-ingressgateway  
+     istio: ingressgateway  
+     environment: dev  
 spec:  
-	gatewayClassName: istio  
-	addresses:  
-	# {service-name}.{namespace}.svc.cluster.local  
-	- value: numbering-front-ingressgateway-service.istio-system.svc.cluster.local  
-	type: Hostname  
-	listeners:  
-	-  name: numbering-front-gateway  
-		hostname: "*.dev.my-service.com"  
-		port: 80  
-		protocol: HTTP  
-		allowedRoutes:  
-			namespaces:  
-				from: All
+  gatewayClassName: istio  
+  addresses:  
+  # {service-name}.{namespace}.svc.cluster.local  
+  - value: numbering-front-ingressgateway-service.istio-system.svc.cluster.local     type: Hostname  
+    listeners:  
+  -  name: numbering-front-gateway  
+     hostname: "*.dev.my-service.com"  
+     port: 80  
+     protocol: HTTP  
+     allowedRoutes:  
+       namespaces:  
+          from: All
 ```
 
 여기서 address 필드는 Gateway 가 트래픽을 수신하는 데 사용할 주소를 지정한다. 
