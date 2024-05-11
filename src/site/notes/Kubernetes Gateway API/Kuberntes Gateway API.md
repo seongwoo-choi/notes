@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kubernetes Gateway API/Kuberntes Gateway API/","created":"2024-03-12T16:24:31.000+09:00","updated":"2024-05-11T11:39:29.223+09:00"}
+{"dg-publish":true,"permalink":"/Kubernetes Gateway API/Kuberntes Gateway API/","created":"2024-03-12T16:24:31.000+09:00","updated":"2024-05-11T11:40:56.312+09:00"}
 ---
 
 ## Gateway
@@ -36,8 +36,8 @@ spec:
 	- value: numbering-front-ingressgateway-service.istio-system.svc.cluster.local  
 	type: Hostname  
 	listeners:  
-	-  name: numbering-front-gateway  # *.front-numbering.dev.musinsa.com 
-		hostname: "*.dev.musinsa.com"  
+	-  name: numbering-front-gateway  
+		hostname: "*.dev.my-service.com"  
 		port: 80  
 		protocol: HTTP  
 		allowedRoutes:  
