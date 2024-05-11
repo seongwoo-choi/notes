@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Golang/baisic/Simplified Channels/","created":"2024-04-22T09:52:23.268+09:00","updated":"2024-05-11T11:35:10.074+09:00"}
+{"dg-publish":true,"permalink":"/golang/baisic/simplified-channels/","dgPassFrontmatter":true,"created":"2024-04-22T09:52:23.268+09:00","updated":"2024-05-11T11:35:10.074+09:00"}
 ---
 
 고루틴을 사용하여 동시에 여러 작업을 수행할 수 있다. 이 때 고루틴끼리는 채널을 통해 서로 통신이 가능하다.
