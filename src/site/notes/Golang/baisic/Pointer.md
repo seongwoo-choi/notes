@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Golang/baisic/Pointer/","created":"2024-01-27T20:09:16.000+09:00","updated":"2024-05-11T11:35:06.124+09:00"}
+{"dg-publish":true,"permalink":"/golang/baisic/pointer/","dgPassFrontmatter":true,"created":"2024-01-27T20:09:16.000+09:00","updated":"2024-05-11T11:35:06.124+09:00"}
 ---
 
 고언어에서 슬라이스, 맵, 채널, 함수, 메서드는 참조 타입이다. 참조 타입은 포인터와 마찬가지로 데이터를 직접 갖지 않고 실제 데이터가 있는 메모리 공간을 가리킨다.
