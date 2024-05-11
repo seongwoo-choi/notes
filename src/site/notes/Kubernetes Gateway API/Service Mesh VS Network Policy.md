@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Kubernetes Gateway API/Service Mesh VS Network Policy/","created":"2024-02-01T18:12:04.000+09:00","updated":"2024-05-11T11:39:37.163+09:00"}
+{"dg-publish":true,"permalink":"/kubernetes-gateway-api/service-mesh-vs-network-policy/","dgPassFrontmatter":true,"created":"2024-02-01T18:12:04.000+09:00","updated":"2024-05-11T11:39:37.163+09:00"}
 ---
 
 ### Network Policy
