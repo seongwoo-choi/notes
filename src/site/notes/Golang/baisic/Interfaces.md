@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Golang/baisic/Interfaces/","created":"2024-01-27T22:59:10.000+09:00","updated":"2024-05-11T11:34:10.396+09:00"}
+{"dg-publish":true,"permalink":"/golang/baisic/interfaces/","dgPassFrontmatter":true,"created":"2024-01-27T22:59:10.000+09:00","updated":"2024-05-11T11:34:10.396+09:00"}
 ---
 
 고언어에서 인터페이스의 역할은 객체의 동작을 표현하는 것이다.
