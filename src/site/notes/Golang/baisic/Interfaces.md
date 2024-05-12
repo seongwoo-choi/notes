@@ -157,7 +157,7 @@ func display(s interface{}) {
 ## 인터페이스를 통한 다형성
 
 아래 그림처럼 타입이 다른 구조체 세 개를 정의하고, 인터페이스로 아래 구조체 세 개를 같은 방식으로 처리해보자.
-![interfaces1.png](/src/site/img/user/Golang/static/interfaces1.png)
+![interfaces1.png](/img/user/Golang/static/interfaces1.png)
 
 먼저 Const() float64 메서드 서명을 가진 Conter 인터페이스를 만들고, Conster 인터페이스를 매개변수로 받아 Conster 인터페이스의 Const() 를 출력하는 displayConst() 함수를 만든다.
 
