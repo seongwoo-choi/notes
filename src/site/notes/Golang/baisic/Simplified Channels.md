@@ -128,5 +128,5 @@ func main() {
 - 반복 실행: 채널에 데이터가 도착하면 반복문이 실행되어 'val' 변수에 값을 할당하고, 'fmt.Println' 으로 해당 값을 출력한다.
 - 채널 종료: 채널이 'close()' 함수를 통해 명시적으로 닫히거나, 데이터를 보내는 측에서 더 이상의 데이터 전송이 없을 경우('close()' 호출), 'range' 문은 더 이상의 데이터를 기다리지 않고 반복문을 종료한다.
 
-![Pasted image 20240422105238.png](/src/site/img/user/Golang/static/Pasted%20image%2020240422105238.png)
+![Pasted image 20240422105238.png](/img/user/Golang/static/Pasted%20image%2020240422105238.png)
 
