@@ -51,15 +51,11 @@ value 부분에 Gateway 서비스의 FQDN 을 지정하고 type: hostname 은 �
 ## HTTPRoute
 HTTPRoute: Gateway 에서 수신한 트래픽을 맵핑하기 위한 HTTP 관련 규칙을 정의한다. 일반적으로 Service 에 맵핑한다.
 HTTPRoute 와 TCPRoute 를 통해 트래픽이 라우팅되어 Service 로 도달한다면, Gateway 와 Service 에서 트래픽은 암호화 될 수 있다
-
-![http-route-1.png](/src/site/img/user/Kubernetes%20Gateway%20API/static/http-route-1.png)
-
+![http-route-1.png](/img/user/Kubernetes%20Gateway%20API/static/http-route-1.png)
 위 그림은 Kubernetes Gateway API 가 어떤 식으로 연결되어 있는지 보여 준다.
 Gateway 는 딱 하나의 GatewayClass 와 연결된다. GatewayClass 는 Gateway Controller 를 명시한다.
 HTTPRoute 는 여러 Gateway 에 연결될 수 있다. Gateway 는 수신한 트래픽을 연결된 HTTPRoute 를 확인하여 라우팅한다.
-
-![http-route-2.png](/src/site/img/user/Kubernetes%20Gateway%20API/static/http-route-2.png)
-
+![http-route-2.png](/img/user/Kubernetes%20Gateway%20API/static/http-route-2.png)
 위 그림은 트래픽이 들어와 Gateway 와 HTTPRoute 를 사용하여 서비스로 라우팅되는 과정을 보여준다.
 여기서 Gateway 는 Reverse Proxy 로 봐도 무방하다.
 
